@@ -18,12 +18,14 @@ public class PointRef {					//Class declaration
         int[][] r=new int[n][2];
         int i=0;
         for(i=0;i<n;i++)
-        {   p[i][0]=sc.nextInt();			//input the points p and q (x,y)
+        {  
+            p[i][0]=sc.nextInt();			//input the points p and q (x,y)
             p[i][1]=sc.nextInt();
             q[i][0]=sc.nextInt();
             q[i][1]=sc.nextInt();
         }
-        sc.close();					//close scanner after input
+        //close scanner after input
+        sc.close();					
         for(i=0;i<n;i++)
         {r[i][0]=(q[i][0]-p[i][0])+q[i][0];		//calculate x co-ordinates of r
         
