@@ -13,6 +13,6 @@ public class Solution {
             
         
         }
-        scan.close();
+        scan.close(); //For Memory Leak
     }
 }
